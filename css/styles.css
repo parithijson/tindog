@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #8f8f8f;
+}
+
+.big-headings {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 800;
+    color: white;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.coloured-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* title */
+
+#title {
+    text-align: left;
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.btn {
+    margin: 5% 2% 5% 0;
+}
+
+.image {
+    position: relative;
+}
+
+.iphone {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.fet-ic {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fet-ic:hover {
+    color: #ff4c68
+}
+
+
+/* features */
+
+#features {
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature-text {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.feature-box {
+    padding: 5%;
+}
+
+
+
+.testimonial-text {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pebbles {
+    width: 10%;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+/* press */
+
+#press {
+    padding-bottom: 5%;
+
+}
+
+.partner {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+
+.price-text {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* footer */
+
+.fa {
+    margin: 20px 10px;
+}
+
+.copyright {
+    font-size: 1.2rem;
+
+}
+
+/* media-queries */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        width: 30%;
+        position: static;
+        transform: rotate(0);
+    }
+}
